@@ -25,7 +25,7 @@ public class Controller implements Initializable {
 	private static final int ROWS=6;
 	private static final int CIRCLE_DIAMETER=80;
 	private static final String discColor1="#330019";
-	private static final String discColor2="#CCFFFF";
+	private static final String discColor2="#FFCCE5";
 
 	private static String PLAYER_ONE="Player one";
 	private static String PLAYER_TWO="Player two";
