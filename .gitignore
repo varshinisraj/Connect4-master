@@ -40,4 +40,5 @@ build/
 
 ### Ignoring Java class files in out dir
 /out/
-/.idea/*
+/.idea/
+/.mvn/
