@@ -15,7 +15,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        //FXMLLoader loader=new FXMLLoader(getClass().getResource("game.fxml"));
+
         FXMLLoader loader = new FXMLLoader(Main.class.getResource("game.fxml"));
         GridPane rootGridPane=loader.load();
 
@@ -80,7 +80,7 @@ public class Main extends Application {
     private void aboutMe() {
         Alert aboutGame= new Alert(Alert.AlertType.INFORMATION);
         aboutGame.setTitle("About the Developer");
-        aboutGame.setHeaderText("VARSHINI S RAJ");
+        aboutGame.setHeaderText("Varshini S Raj");
         aboutGame.setContentText(" An Assignment to complete the Core Java Course\n");
         aboutGame.show();
     }
