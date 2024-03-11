@@ -15,7 +15,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader=new FXMLLoader(getClass().getResource("game.fxml"));
+        //FXMLLoader loader=new FXMLLoader(getClass().getResource("game.fxml"));
+        FXMLLoader loader = new FXMLLoader(Main.class.getResource("game.fxml"));
         GridPane rootGridPane=loader.load();
 
         controller = loader.getController();
